@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>힐링푸드연구소 | Healing Food Lab</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="자연 본연의 식재료와 푸드 테라피로 몸과 마음을 치유하는 힐링푸드연구소입니다. 식습관 컨설팅, 힐링 레시피 개발, 프라이빗 쿠킹 클래스, 기업 워크숍 전문.">
+    <meta name="keywords" content="힐링푸드연구소, 푸드테라피, 식습관 컨설팅, 건강 레시피, 쿠킹클래스, 영양상담, 약선요리, 자연식">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://healingfoodlab.com">
+    <meta property="og:title" content="힐링푸드연구소 | Healing Food Lab">
+    <meta property="og:description" content="자연의 온기로 마음과 몸을 채우는 건강한 식탁. 맞춤형 영양 상담부터 힐링 쿠킹 클래스까지 함께합니다.">
+    <meta property="og:image" content="./assets/hero.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://healingfoodlab.com">
+    <meta property="twitter:title" content="힐링푸드연구소 | Healing Food Lab">
+    <meta property="twitter:description" content="자연의 온기로 마음과 몸을 채우는 건강한 식탁. 맞춤형 영양 상담부터 힐링 쿠킹 클래스까지 함께합니다.">
+    <meta property="twitter:image" content="./assets/hero.png">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍋</text></svg>">
+
+    <!-- Fonts (Google Fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons (CDN) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Style Link -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo" id="nav-logo">
+                <span class="logo-eng">Healing Food</span>
+                <span class="logo-kor">힐링푸드연구소</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#about" class="nav-link">연구소 소개</a></li>
+                    <li><a href="#services" class="nav-link">하고 있는 일들</a></li>
+                    <li><a href="#references" class="nav-link">레퍼런스</a></li>
+                    <li><a href="#contact" class="nav-link">문의하기</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="메뉴 열기">
+                <i data-lucide="menu" class="icon-menu"></i>
+                <i data-lucide="x" class="icon-close"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge">Food Therapy & Wellness</span>
+                    <h1 class="hero-title">
+                        자연의 온기로<br>
+                        몸과 마음을 채우는<br>
+                        <span class="highlight-serif">Healing Table</span>
+                    </h1>
+                    <p class="hero-desc">
+                        힐링푸드연구소는 자연 본연의 정직한 식재료와 균형 잡힌 영양학을 통해 
+                        현대인들의 지친 몸과 마음을 치유하는 식생활 솔루션을 연구합니다.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#services" class="btn btn-primary" id="btn-hero-more">연구 활동 보기</a>
+                        <a href="#contact" class="btn btn-secondary" id="btn-hero-contact">일대일 상담 신청</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-deco"></div>
+                    <img src="./assets/hero.png" alt="정갈하게 차려진 건강한 힐링 푸드 테이블" class="hero-img">
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL DOWN</span>
+                <i data-lucide="chevron-down" class="scroll-arrow"></i>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">ABOUT US</span>
+                    <h2 class="section-title">자연에서 찾은 비움과 채움의 미학</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-image-side">
+                        <img src="./assets/about.png" alt="신선한 유기농 레몬과 가공하지 않은 식재료들" class="about-img">
+                        <div class="about-experience">
+                            <span class="exp-number">12+</span>
+                            <span class="exp-text">Years of<br>Research</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-content-side">
+                        <div class="about-story">
+                            <h3>"당신이 먹는 것이 곧 당신입니다"</h3>
+                            <p>
+                                우리는 바쁜 일상 속에서 인스턴트식품과 가공식품에 익숙해져 몸의 경고를 무시하곤 합니다. 
+                                힐링푸드연구소는 단순히 맛있는 요리를 만드는 것을 넘어, 개개인의 체질과 건강 패턴에 최적화된 
+                                '약이 되는 음식(藥膳)'을 연구하고 대중화하고 있습니다.
+                            </p>
+                            <p>
+                                불필요한 첨가물은 <strong>비우고</strong>, 대자연이 선물한 고유의 영양소와 생명력을 <strong>채우는</strong> 
+                                올바른 식생활 문화를 만들어 갑니다.
+                            </p>
+                        </div>
+
+                        <!-- Philosophy Tabs -->
+                        <div class="tabs-container">
+                            <div class="tab-buttons">
+                                <button class="tab-btn active" data-tab="philosophy">연구소 철학</button>
+                                <button class="tab-btn" data-tab="core-values">핵심 가치</button>
+                            </div>
+                            
+                            <div class="tab-content active" id="philosophy">
+                                <ul class="philosophy-list">
+                                    <li>
+                                        <i data-lucide="heart" class="tab-icon"></i>
+                                        <div>
+                                            <h4>신인합일 (身人合一)</h4>
+                                            <p>몸과 정신은 하나이며, 음식은 이 둘의 완전한 조화를 이루는 매개체입니다.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="leaf" class="tab-icon"></i>
+                                        <div>
+                                            <h4>자연주의 순환 식탁</h4>
+                                            <p>제철 식재료의 생명력을 온전히 살려 지구와 몸에 무해한 조리를 고집합니다.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content" id="core-values">
+                                <ul class="philosophy-list">
+                                    <li>
+                                        <i data-lucide="shield-check" class="tab-icon"></i>
+                                        <div>
+                                            <h4>무첨가 원칙</h4>
+                                            <p>정제당, 화학 조미료, 인공 색소를 배제하고 자연 발효와 대체 감미료를 사용합니다.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="sparkles" class="tab-icon"></i>
+                                        <div>
+                                            <h4>개인화 맞춤 영양</h4>
+                                            <p>성별, 연령, 유전자 정보 및 현대인의 만성 건강 상태에 최적화된 맞춤형 솔루션 제공.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">WHAT WE DO</span>
+                    <h2 class="section-title">건강한 삶을 설계하는 연구소의 활동</h2>
+                    <p class="section-desc">일상 속에서 푸드 테라피를 손쉽게 경험할 수 있도록 맞춤형 프로그램과 최적의 요리 공식을 제안합니다.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="./assets/service_consulting.png" alt="식생활 테라피 컨설팅 전경" class="service-card-img">
+                            <div class="service-icon-box">
+                                <i data-lucide="activity" class="service-icon"></i>
+                            </div>
+                        </div>
+                        <div class="service-info">
+                            <h3>일대일 맞춤 식생활 테라피</h3>
+                            <p>개인의 대사 속도, 식습관, 혈액 건강 데이터를 심층 분석하여 만성 염증 완화 및 체력 증진을 위한 1:1 맞춤형 식단 가이드라인을 제공합니다.</p>
+                            <a href="#contact" class="service-link">
+                                <span>상담 예약하기</span>
+                                <i data-lucide="arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="./assets/service_class.png" alt="쿠킹 클래스 현장" class="service-card-img">
+                            <div class="service-icon-box">
+                                <i data-lucide="utensils-cross" class="service-icon"></i>
+                            </div>
+                        </div>
+                        <div class="service-info">
+                            <h3>프라이빗 힐링 쿠킹 클래스</h3>
+                            <p>자연 재료 본연의 맛을 손상 없이 극대화하는 약선 조리 기법과, 저염·저당식으로 맛과 품격을 모두 지켜내는 감각적인 요리를 직접 만들어보는 클래스입니다.</p>
+                            <a href="#contact" class="service-link">
+                                <span>클래스 문의</span>
+                                <i data-lucide="arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card">
+                        <div class="service-card-deco"></div>
+                        <div class="service-card-inner">
+                            <div class="service-icon-only">
+                                <i data-lucide="award" class="service-icon-big"></i>
+                            </div>
+                            <h3>식품 및 메뉴 개발 (R&D)</h3>
+                            <p>유통업체, F&B 브랜드, 헬스케어 플랫폼과 파트너십을 맺고 특수 영양 밀키트 레시피 설계, 비건 스낵 및 천연 저당 대체 소스 배합을 개발 및 기술 자문합니다.</p>
+                            <div class="service-features">
+                                <span class="badge-sm">H푸드 기술 자문</span>
+                                <span class="badge-sm">특허 저당 레시피</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="service-card">
+                        <div class="service-card-deco"></div>
+                        <div class="service-card-inner">
+                            <div class="service-icon-only">
+                                <i data-lucide="users" class="service-icon-big"></i>
+                            </div>
+                            <h3>기업·단체 푸드 테라피 워크숍</h3>
+                            <p>감정 노동자와 임직원들을 위한 '음식을 통한 스트레스 완화'와 '마음 챙김 식사법(Mindful Eating)' 워크숍을 진행하여 사내 복지와 건강 관리를 돕습니다.</p>
+                            <div class="service-features">
+                                <span class="badge-sm">기업 맞춤형 특강</span>
+                                <span class="badge-sm">스트레스 완화 프로그램</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- References Section -->
+        <section class="references" id="references">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">REFERENCES</span>
+                    <h2 class="section-title">건강한 내일을 위한 의미 있는 발걸음</h2>
+                </div>
+
+                <div class="references-masonry">
+                    <!-- Ref 1 -->
+                    <div class="ref-card">
+                        <div class="ref-category">R&D 공동 연구</div>
+                        <h4 class="ref-title">H푸드 만성 염증 완화 30일 밀키트 식단 설계</h4>
+                        <p class="ref-desc">중장년층의 미세 염증 수치를 낮추기 위해 항산화 지수가 높은 30종의 제철 요리 레시피를 영양학적 설계와 함께 공동 개발하여 런칭했습니다.</p>
+                        <div class="ref-date">2025.10 - 2026.02</div>
+                    </div>
+
+                    <!-- Ref 2 -->
+                    <div class="ref-card featured">
+                        <div class="ref-category">도서 출간</div>
+                        <h4 class="ref-title">베스트셀러 『자연 한 그릇, 위로 한 스푼』 출간</h4>
+                        <p class="ref-desc">바쁜 일상에 지쳐 위장 장애와 번아웃을 겪는 현대인들을 위한 자가 치유 푸드 에세이 및 레시피 북을 출간하여 건강 분야 베스트셀러 4주 연속 1위를 기록했습니다.</p>
+                        <div class="ref-date">2025.04</div>
+                    </div>
+
+                    <!-- Ref 3 -->
+                    <div class="ref-card">
+                        <div class="ref-category">지자체 협업</div>
+                        <h4 class="ref-title">양평군 친환경 유기농 농가 로컬 메뉴 개발 컨설팅</h4>
+                        <p class="ref-desc">지역 특산물(친환경 버섯, 산나물 등)을 활용한 시그니처 힐링 한정식 메뉴 개발을 수행하여, 로컬 푸드 매장의 매출 향상과 농가 활성화에 기여했습니다.</p>
+                        <div class="ref-date">2024.09 - 2024.11</div>
+                    </div>
+
+                    <!-- Ref 4 -->
+                    <div class="ref-card">
+                        <div class="ref-category">사례 발표</div>
+                        <h4 class="ref-title">대한통합의학회 '식품 치유 사례의 실제' 우수 논문 발표</h4>
+                        <p class="ref-desc">연구소 회원 150명의 식단 개선 전후 자율신경계 균형도 및 수면 효율 측정 데이터를 통합 분석하여 학술 대회에서 푸드 테라피의 임상적 유의성을 검증받았습니다.</p>
+                        <div class="ref-date">2024.05</div>
+                    </div>
+                </div>
+
+                <!-- Partners -->
+                <div class="partners-section">
+                    <p class="partners-title">힐링푸드연구소와 함께한 파트너사</p>
+                    <div class="partners-logo-grid">
+                        <div class="partner-logo"><span>H-FOODS</span></div>
+                        <div class="partner-logo"><span>올가네이처</span></div>
+                        <div class="partner-logo"><span>자연생태재단</span></div>
+                        <div class="partner-logo"><span>웰니스 코리아</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="section-container">
+                <div class="contact-card-wrapper">
+                    <div class="contact-info-side">
+                        <span class="contact-badge">GET IN TOUCH</span>
+                        <h2 class="contact-title">오늘부터 시작하는<br>건강한 나를 위한 변화</h2>
+                        <p class="contact-desc">
+                            몸의 신호에 귀 기울이고 싶다면, 지금 힐링푸드연구소에 문의하세요. 
+                            따뜻한 차 한 잔과 함께 편안한 마음으로 기다리고 있겠습니다.
+                        </p>
+                        
+                        <div class="contact-details">
+                            <div class="detail-item">
+                                <i data-lucide="map-pin" class="detail-icon"></i>
+                                <div>
+                                    <h5>위치</h5>
+                                    <p>서울특별시 강남구 테헤란로 427, 웰니스 타워 12층</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i data-lucide="phone" class="detail-icon"></i>
+                                <div>
+                                    <h5>연락처</h5>
+                                    <p>02-555-8274 | healingfoodlab@naver.com</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i data-lucide="clock" class="detail-icon"></i>
+                                <div>
+                                    <h5>운영 시간</h5>
+                                    <p>평일 10:00 - 18:00 (점심시간 12:00 - 13:00 / 주말 및 공휴일 휴무)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-side">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="name">성함 <span class="required">*</span></label>
+                                    <input type="text" id="name" name="name" required placeholder="홍길동">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">연락처 <span class="required">*</span></label>
+                                    <input type="tel" id="phone" name="phone" required placeholder="010-0000-0000">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">이메일 주소 <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required placeholder="example@email.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="interest">상담 희망 분야 <span class="required">*</span></label>
+                                <select id="interest" name="interest" required>
+                                    <option value="" disabled selected>희망 항목을 선택해 주세요</option>
+                                    <option value="consulting">일대일 맞춤 식생활 컨설팅</option>
+                                    <option value="class">프라이빗 쿠킹 클래스 참가</option>
+                                    <option value="rnd">식품 및 레시피 공동 R&D</option>
+                                    <option value="lecture">기업/단체 맞춤형 강연 및 워크숍</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">문의 내용 <span class="required">*</span></label>
+                                <textarea id="message" name="message" rows="5" required placeholder="궁금하신 내용이나 현재 건강 상태, 고민을 상세히 남겨주시면 정밀한 맞춤 답변에 큰 도움이 됩니다."></textarea>
+                            </div>
+
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <label for="privacy">개인정보 수집 및 동의에 동의합니다. (필수)</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block" id="btn-submit">
+                                <span>상담 및 문의 신청하기</span>
+                                <i data-lucide="send"></i>
+                            </button>
+                        </form>
+
+                        <div class="success-message" id="success-message">
+                            <div class="success-icon-box">
+                                <i data-lucide="check-circle" class="success-icon"></i>
+                            </div>
+                            <h3>신청이 완료되었습니다!</h3>
+                            <p>남겨주신 소중한 상담 요청 내용이 성공적으로 접수되었습니다. 연구소 스태프가 확인 후 빠른 시일 내에 기재해주신 연락처나 이메일로 회신해 드리겠습니다.</p>
+                            <button class="btn btn-secondary btn-sm" id="btn-form-reset">다시 문의하기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h4>Healing Food Lab</h4>
+                    <p>자연의 기운으로 삶을 정화하고 치유하는 공간, 힐링푸드연구소</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="인스타그램"><i data-lucide="instagram"></i></a>
+                    <a href="#" aria-label="네이버 블로그"><i data-lucide="book-open"></i></a>
+                    <a href="#" aria-label="유튜브"><i data-lucide="youtube"></i></a>
+                </div>
+            </div>
+            <hr class="footer-line">
+            <div class="footer-bottom">
+                <div class="footer-info">
+                    <p>상호명: 힐링푸드연구소 | 대표자: 홍소장 | 사업자등록번호: 120-00-00000</p>
+                    <p>주소: 서울특별시 강남구 테헤란로 427, 웰니스 타워 12층 | 이메일: healingfoodlab@naver.com</p>
+                    <p class="copy">&copy; 2026 힐링푸드연구소 (Healing Food Lab). All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script Link -->
+    <script src="./script.js"></script>
+</body>
+</html>
