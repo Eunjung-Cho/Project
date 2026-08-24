@@ -5,7 +5,8 @@
 
 ## 프로젝트
 - 2021년 1학기 한이음
-- 2021년 1학기 오버워치 리그 분석
+- [2021년 클라우드플랫폼](./music-recommedation-system-based-on-text/)
+- [2021년 1학기 오버워치 리그 분석](./Overwatch-League-Prediction/)
 - 2021년 동아리 프로젝트
 
 ## 공모전
